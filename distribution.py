@@ -65,7 +65,7 @@ wc=(s.count('w'))
 xc=(s.count('x'))
 yc=(s.count('y'))
 zc=(s.count('z'))
-
+l=[ac,bc,cc,dc,ec,fc,gc,hc,ic,jc,kc,lc,mc,nc,oc,pc,qc,rc,sc,tc,uc,vc,wc,xc,yc,zc]
 print('The distribution of characters in "{0}" is: '.format(text))
 print("a"*ac)
 print("b"*bc)
