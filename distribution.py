@@ -38,7 +38,9 @@ Notice about this example:
 """
 
 text = input("Please enter a string of text (the bigger the better): ")
+
 s=list(text)
+
 ac=(s.count('a'))
 bc=(s.count('b'))
 cc=(s.count('c'))
@@ -65,8 +67,22 @@ wc=(s.count('w'))
 xc=(s.count('x'))
 yc=(s.count('y'))
 zc=(s.count('z'))
+
 l=[ac,bc,cc,dc,ec,fc,gc,hc,ic,jc,kc,lc,mc,nc,oc,pc,qc,rc,sc,tc,uc,vc,wc,xc,yc,zc]
+l.sort()
+
+q=l[0]
+w=l[1]
+e=l[2]
+r=l[3]
+t=l[4]
+y=l[5]
+u=l[6]
+
+
+
 print('The distribution of characters in "{0}" is: '.format(text))
+
 print("a"*ac)
 print("b"*bc)
 print("c"*cc)
