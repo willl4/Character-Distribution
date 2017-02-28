@@ -66,5 +66,8 @@ xc=(s.count('x'))
 yc=(s.count('y'))
 zc=(s.count('z'))
 
-print('The distribution of characters in "{0}" is: '.format())
+print('The distribution of characters in "{0}" is: '.format(text))
+print("a"*ac)
+
+
 
