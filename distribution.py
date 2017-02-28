@@ -70,7 +70,7 @@ zc=(ss.count('z'))
 
 c=[ac,bc,cc,dc,ec,fc,gc,hc,ic,jc,kc,lc,mc,nc,oc,pc,qc,rc,sc,tc,uc,vc,wc,xc,yc,zc]
 l=[a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z]
-zip(c,l)
+z=zip(c,l)
 
 print('The distribution of characters in "{0}" is: '.format(text))
 
