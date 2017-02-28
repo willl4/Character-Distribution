@@ -39,47 +39,38 @@ Notice about this example:
 
 text = input("Please enter a string of text (the bigger the better): ")
 
-s=list(text)
+ss=list(text)
 
-ac=(s.count('a'))
-bc=(s.count('b'))
-cc=(s.count('c'))
-dc=(s.count('d'))
-ec=(s.count('e'))
-fc=(s.count('f'))
-gc=(s.count('g'))
-hc=(s.count('h'))
-ic=(s.count('i'))
-jc=(s.count('j'))
-kc=(s.count('k'))
-lc=(s.count('l'))
-mc=(s.count('m'))
-nc=(s.count('n'))
-oc=(s.count('o'))
-pc=(s.count('p'))
-qc=(s.count('q'))
-rc=(s.count('r'))
-sc=(s.count('s'))
-tc=(s.count('t'))
-uc=(s.count('u'))
-vc=(s.count('v'))
-wc=(s.count('w'))
-xc=(s.count('x'))
-yc=(s.count('y'))
-zc=(s.count('z'))
+ac=(ss.count('a'))
+bc=(ss.count('b'))
+cc=(ss.count('c'))
+dc=(ss.count('d'))
+ec=(ss.count('e'))
+fc=(ss.count('f'))
+gc=(ss.count('g'))
+hc=(ss.count('h'))
+ic=(ss.count('i'))
+jc=(ss.count('j'))
+kc=(ss.count('k'))
+lc=(ss.count('l'))
+mc=(ss.count('m'))
+nc=(ss.count('n'))
+oc=(ss.count('o'))
+pc=(ss.count('p'))
+qc=(ss.count('q'))
+rc=(ss.count('r'))
+sc=(ss.count('s'))
+tc=(ss.count('t'))
+uc=(ss.count('u'))
+vc=(ss.count('v'))
+wc=(ss.count('w'))
+xc=(ss.count('x'))
+yc=(ss.count('y'))
+zc=(ss.count('z'))
 
-l=[ac,bc,cc,dc,ec,fc,gc,hc,ic,jc,kc,lc,mc,nc,oc,pc,qc,rc,sc,tc,uc,vc,wc,xc,yc,zc]
-l.sort()
-
-q=l[0]
-w=l[1]
-e=l[2]
-r=l[3]
-t=l[4]
-y=l[5]
-u=l[6]
-
-
+c=[ac,bc,cc,dc,ec,fc,gc,hc,ic,jc,kc,lc,mc,nc,oc,pc,qc,rc,sc,tc,uc,vc,wc,xc,yc,zc]
+l=[a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z]
+zip(c,l)
 
 print('The distribution of characters in "{0}" is: '.format(text))
 
