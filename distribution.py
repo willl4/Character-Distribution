@@ -69,7 +69,7 @@ yc=(ss.count('y'))
 zc=(ss.count('z'))
 
 c=[ac,bc,cc,dc,ec,fc,gc,hc,ic,jc,kc,lc,mc,nc,oc,pc,qc,rc,sc,tc,uc,vc,wc,xc,yc,zc]
-l=[a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z]
+l=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
 z=zip(c,l)
 
 def compare(a, b):
@@ -99,7 +99,7 @@ def bsort(seq, cmp):
                 if not cmp(seq[index-1], value):  # if this element is out of order
                     sorted = False          # then the list is not sorted yet
                     seq[index-1], seq[index] = seq[index], seq[index-1] # and swap it
-
+print(z)
 print('The distribution of characters in "{0}" is: '.format(text))
 
 print("a"*ac)
