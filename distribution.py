@@ -74,12 +74,14 @@ z=list(zip(a,b))
 
 def compare(a, b):
     if a[0]>b[0]:
-         return True
+         return False
     elif a[0]<b[0]:
-        return False
+        return True
     elif a[0]==b[0] and a[1]>b[1]:
         return True
     elif a[0]==b[0] and a[1]<b[1]:
+        return False
+    else:
         return False
         
         
