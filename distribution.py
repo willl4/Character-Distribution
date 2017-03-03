@@ -73,10 +73,8 @@ b=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','
 z=list(zip(a,b))
 
 def compare(a, b):
-    if a[0]>b[0]:
-         return False
-    elif a[0]<b[0]:
-        return True
+    if a[0]<b[0]:
+         return True
     elif a[0]==b[0] and a[1]>b[1]:
         return True
     elif a[0]==b[0] and a[1]<b[1]:
@@ -101,6 +99,7 @@ def bsort(z, cmp):
                 if not cmp(seq[index-1], value):  # if this element is out of order
                     sorted = False          # then the list is not sorted yet
                     seq[index-1], seq[index] = seq[index], seq[index-1] # and swap it
+bsort(z, cmp)
 print(z)
 print('The distribution of characters in "{0}" is: '.format(text))
 
