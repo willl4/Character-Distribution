@@ -98,8 +98,8 @@ def bsort(z, cmp):
             if index > 0:                   # past the first..
                 if not cmp(seq[index-1], value):  # if this element is out of order
                     sorted = False          # then the list is not sorted yet
-                    seq[index-1], seq[index] = seq[index], seq[index-1] # and swap it
-bsort(z, cmp)
+                    z[index-1], z[index] = z[index], z[index-1] # and swap it
+bsort(z, compare)
 print(z)
 print('The distribution of characters in "{0}" is: '.format(text))
 
