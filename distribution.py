@@ -85,7 +85,7 @@ def compare(a, b):
         
    
 
-def bsort(seq, cmp):
+def bsort(z, cmp):
     """
     bsort - simple sorting algorithm that uses any comparison function
     seq - a list to be sorted
