@@ -96,7 +96,7 @@ def bsort(z, cmp):
         sorted = True   # assume it's already sorted correctly
         for index, value in enumerate(seq): # for every element in seq
             if index > 0:                   # past the first..
-                if not cmp(seq[index-1], value):  # if this element is out of order
+                if not cmp(z[index-1], value):  # if this element is out of order
                     sorted = False          # then the list is not sorted yet
                     z[index-1], z[index] = z[index], z[index-1] # and swap it
 bsort(z, compare)
