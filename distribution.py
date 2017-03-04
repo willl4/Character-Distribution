@@ -73,12 +73,10 @@ b=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','
 z=list(zip(a,b))
 
 def compare(a, b):
-    if a[0]<b[0]:
+    if a[0]>b[0]:
          return True
-    elif a[0]==b[0] and a[1]>b[1]:
-        return True
     elif a[0]==b[0] and a[1]<b[1]:
-        return False
+        return True
     else:
         return False
         
