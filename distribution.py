@@ -101,32 +101,60 @@ bsort(z, compare)
 print(z)
 print('The distribution of characters in "{0}" is: '.format(text))
 
-print("a"*ac)
-print("b"*bc)
-print("c"*cc)
-print("d"*dc)
-print("e"*ec)
-print("f"*fc)
-print("g"*gc)
-print("h"*hc)
-print("i"*ic)
-print("j"*jc)
-print("k"*kc)
-print("l"*lc)
-print("m"*mc)
-print("n"*nc)
-print("o"*oc)
-print("p"*pc)
-print("q"*qc)
-print("r"*rc)
-print("s"*sc)
-print("t"*tc)
-print("u"*uc)
-print("v"*vc)
-print("w"*wc)
-print("x"*xc)
-print("y"*yc)
-print("z"*zc)
+if a[0] > 0:
+    print(int((a[0])*(b[0])))
+if a[1] > 0:
+    print(int((a[1])*(b[1])))
+if a[2] > 0:
+    print(int((a[2)*(b[2])))
+if a[3] > 0:
+    print(int((a[3])*(b[3])))
+if a[4] > 0:
+    print(int((a[4])*(b[4])))
+if a[5] > 0:
+    print(int((a[5])*(b[5])))
+if a[6] > 0:
+    print(int((a[6])*(b[6])))
+if a[7] > 0:
+    print(int((a[7])*(b[7])))
+if a[8] > 0:
+    print(int((a[8])*(b[8])))
+if a[9] > 0:
+    print(int((a[9])*(b[9])))
+if a[10] > 0:
+    print(int((a[10])*(b[10])))
+if a[11] > 0:
+    print(int((a[11])*(b[11])))
+if a[12] > 0:
+    print(int((a[12])*(b[12])))
+if a[13] > 0:
+    print(int((a[13])*(b[13])))
+if a[14] > 0:
+    print(int((a[14])*(b[14])))
+if a[15] > 0:
+    print(int((a[15])*(b[15])))
+if a[16] > 0:
+    print(int((a[16])*(b[16])))
+if a[17] > 0:
+    print(int((a[17])*(b[17])))
+if a[18] > 0:
+    print(int((a[18])*(b[18])))
+if a[19] > 0:
+    print(int((a[19])*(b[19])))
+if a[20] > 0:
+    print(int((a[20])*(b[20])))
+if a[21] > 0:
+    print(int((a[21])*(b[21])))
+if a[22] > 0:
+    print(int((a[22])*(b[22])))
+if a[23] > 0:
+    print(int((a[23])*(b[23])))
+if a[24] > 0:
+    print(int((a[24])*(b[24])))
+if a[25] > 0:
+    print(int((a[25])*(b[25])))
+
+
 
 
 
