@@ -98,7 +98,8 @@ def bsort(z, cmp):
                     sorted = False          # then the list is not sorted yet
                     z[index-1], z[index] = z[index], z[index-1] # and swap it
 bsort(z, compare)
-print(z)
+zip(*z)
+
 print('The distribution of characters in "{0}" is: '.format(text))
 
 if a[0] > 0:
