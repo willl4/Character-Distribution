@@ -38,7 +38,8 @@ Notice about this example:
 """
 
 text = input("Please enter a string of text (the bigger the better): ")
-
+print('The distribution of characters in "{0}" is: '.format(text))
+text=text.lower()
 ss=list(text)
 
 ac=(ss.count('a'))
@@ -99,7 +100,7 @@ def bsort(z, cmp):
                     z[index-1], z[index] = z[index], z[index-1] # and swap it
 bsort(z, compare)
 q,t=zip(*z)
-print('The distribution of characters in "{0}" is: '.format(text))
+
 
 if q[0] > 0:
     print((q[0])*(t[0]))
