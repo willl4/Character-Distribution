@@ -107,50 +107,50 @@ if q[0] > 0:
 if q[1] > 0:
     print((q[1])*(t[1]))
 if q[2] > 0:
-    print((a[2])*(b[2]))
+    print((q[2])*(t[2]))
 if q[3] > 0:
-    print((a[3])*(b[3]))
+    print((q[3])*(t[3]))
 if q[4] > 0:
-    print((a[4])*(b[4]))
+    print((q[4])*(t[4]))
 if q[5] > 0:
-    print((a[5])*(b[5]))
+    print((q[5])*(t[5]))
 if q[6] > 0:
-    print((a[6])*(b[6]))
+    print((q[6])*(t[6]))
 if q[7] > 0:
-    print((a[7])*(b[7]))
+    print((q[7])*(t[7]))
 if q[8] > 0:
-    print((a[8])*(b[8]))
-if a[9] > 0:
-    print((a[9])*(b[9]))
-if a[10] > 0:
-    print((a[10])*(b[10]))
-if a[11] > 0:
-    print((a[11])*(b[11]))
-if a[12] > 0:
-    print((a[12])*(b[12]))
-if a[13] > 0:
-    print((a[13])*(b[13]))
-if a[14] > 0:
-    print((a[14])*(b[14]))
-if a[15] > 0:
-    print((a[15])*(b[15]))
-if a[16] > 0:
-    print((a[16])*(b[16]))
-if a[17] > 0:
-    print((a[17])*(b[17]))
-if a[18] > 0:
-    print((a[18])*(b[18]))
-if a[19] > 0:
-    print((a[19])*(b[19]))
-if a[20] > 0:
-    print((a[20])*(b[20]))
-if a[21] > 0:
-    print((a[21])*(b[21]))
-if a[22] > 0:
-    print((a[22])*(b[22]))
-if a[23] > 0:
-    print((a[23])*(b[23]))
-if a[24] > 0:
-    print((a[24])*(b[24]))
-if a[25] > 0:
-    print((a[25])*(b[25]))
+    print((q[8])*(t[8]))
+if q[9] > 0:
+    print((q[9])*(t[9]))
+if q[10] > 0:
+    print((q[10])*(t[10]))
+if q[11] > 0:
+    print((q[11])*(t[11]))
+if q[12] > 0:
+    print((q[12])*(t[12]))
+if q[13] > 0:
+    print((q[13])*(t[13]))
+if q[14] > 0:
+    print((q[14])*(t[14]))
+if q[15] > 0:
+    print((q[15])*(t[15]))
+if q[16] > 0:
+    print((q[16])*(t[16]))
+if q[17] > 0:
+    print((q[17])*(t[17]))
+if q[18] > 0:
+    print((q[18])*(t[18]))
+if q[19] > 0:
+    print((q[19])*(t[19]))
+if q[20] > 0:
+    print((q[20])*(t[20]))
+if q[21] > 0:
+    print((q[21])*(t[21]))
+if q[22] > 0:
+    print((q[22])*(t[22]))
+if q[23] > 0:
+    print((q[23])*(t[23]))
+if q[24] > 0:
+    print((q[24])*(t[24]))
+if q[25] > 0:
+    print((q[25])*(t[25]))
