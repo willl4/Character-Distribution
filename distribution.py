@@ -1,7 +1,7 @@
 """
 distribution.py
-Author: Will Laycock
-Credit: Me
+Author: will laycock
+Credit: me
 
 Assignment:
 
